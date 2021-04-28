@@ -1,0 +1,3 @@
+[submodule "multi_object_datasets"]
+	path = multi_object_datasets
+	url = https://github.com/jinyangyuan/multi_object_datasets.git
