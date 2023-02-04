@@ -2,9 +2,9 @@
 
 function run_model {
     folder_data='../../compositional-scene-representation-datasets/tf/'$name
-    path_config='config_'$name'.yaml'
-    folder_log='logs/'$name
-    folder_out='outs/'$name
+    path_config='config_'$name'_nc.yaml'
+    folder_log='logs_nc/'$name
+    folder_out='outs_nc/'$name
     python $run_file \
         --path_config $path_config \
         --folder_data $folder_data \
